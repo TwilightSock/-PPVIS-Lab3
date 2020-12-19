@@ -4,10 +4,10 @@ using namespace std;
 
 void User::Set_name(Name* name)
 {
-	this->name;
+	this->name = *name;
 }
 
 void User::Set_age(string& age)
 {
-	this->age;
+	this->age = age;
 }

@@ -15,14 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Card_function.cpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClCompile>
     <ClCompile Include="User_function.cpp">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Card_function.cpp">
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry_function.cpp">
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +33,15 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Card.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Card_owner.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

@@ -140,11 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Card_function.cpp" />
+    <ClCompile Include="Entry_function.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="User_function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
+    <ClInclude Include="Card_owner.h" />
+    <ClInclude Include="Encryption.h" />
+    <ClInclude Include="Entry.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
