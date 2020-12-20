@@ -10,9 +10,11 @@ class User
 {
 	string age;
 	Name name;
+	string cell;
 public:
 	void Set_name(Name *name);
 	void Set_age(string &age);
+	void Set_cell(string& cell);
 };
 
 

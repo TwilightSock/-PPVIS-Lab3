@@ -21,3 +21,13 @@ void Card::Set_money(double money)
 {
 	this->money = money;
 }
+
+void Card::Set_cvv(string& Cvv)
+{
+	this->Cvv = Cvv;
+}
+
+void Card::Set_cipher(string& Cipher)
+{
+	this->Cipher = Cipher;
+}

@@ -27,6 +27,12 @@
     <ClCompile Include="Entry_function.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
+    <ClCompile Include="Session_function.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen_function.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="User.h">
@@ -43,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="Encryption.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Файлы ресурсов</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

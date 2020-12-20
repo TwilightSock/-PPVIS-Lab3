@@ -11,3 +11,8 @@ void User::Set_age(string& age)
 {
 	this->age = age;
 }
+
+void User::Set_cell(string& cell)
+{
+	this->cell = cell;
+}
